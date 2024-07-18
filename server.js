@@ -29,4 +29,4 @@ mongoose.connect(process.env.MONGO_URL).then(() => {
     console.log(error);
 })
 
-
+module.exports = app;
